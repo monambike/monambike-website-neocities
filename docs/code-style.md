@@ -1,4 +1,4 @@
-# CSS Property Sorting
+# SCSS Property Sorting
 
 ```scss
 .card {
@@ -30,5 +30,30 @@
 
     /* Animation */
     transition: 0.2s;
+}
+```
+
+# SCSS Class Sorting
+```
+.sidebar {
+    display: flex;
+    width: 250px;
+    padding: 16px;
+
+    &__title {
+        font-size: 24px;
+    }
+
+    &__item {
+        padding: 8px;
+    }
+
+    &:hover {
+        background: #eee;
+    }
+
+    &--collapsed {
+        width: 60px;
+    }
 }
 ```
