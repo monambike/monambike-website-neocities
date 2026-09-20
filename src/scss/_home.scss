@@ -1,6 +1,14 @@
+@mixin win98-border
+{
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
+}
+
 body
 {
-  background: url(../assets/images/background-blue.jpg);
+  background: url(../assets/images/background-flow.gif);
 }
 .page
 {
@@ -19,13 +27,19 @@ body
 
   .banner
   {
-    background-color: cyan;
+    @include win98-border;
+    background: url(../assets/images/banner-vini.gif);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     flex: 1;
   }
   .navbar
   {
+    @include win98-border;
     background-color: yellow;
     height: 80px;
+    padding: 20px;
   }
 }
 
@@ -39,14 +53,20 @@ body
 
 .sidebar
 {
+  @include win98-border;
   background-color: pink;
   width: 40%;
   height: 100%;
+  padding: 20px;
 }
 
 .main
 {
-  background-color: blue;
+  @include win98-border;
+  background: url(../assets/images/background-bubble.gif);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
   width: 60%;
   height: 100%;
 }

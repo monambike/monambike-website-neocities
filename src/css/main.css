@@ -63,7 +63,7 @@ For license information, please see the LICENSE file in the root directory.
 }
 
 body {
-  background: url(../assets/images/background-blue.jpg);
+  background: url(../assets/images/background-flow.gif);
 }
 
 .page {
@@ -80,12 +80,24 @@ body {
   flex-direction: column;
 }
 .header .banner {
-  background-color: cyan;
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
+  background: url(../assets/images/banner-vini.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   flex: 1;
 }
 .header .navbar {
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
   background-color: yellow;
   height: 80px;
+  padding: 20px;
 }
 
 .body {
@@ -96,13 +108,25 @@ body {
 }
 
 .sidebar {
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
   background-color: pink;
   width: 40%;
   height: 100%;
+  padding: 20px;
 }
 
 .main {
-  background-color: blue;
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
+  background: url(../assets/images/background-bubble.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 60%;
   height: 100%;
 }
