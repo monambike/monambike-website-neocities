@@ -1,3 +1,11 @@
+/**********************************************************************
+Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: @monambike for more information.
+For license information, please see the LICENSE file in the root directory.
+**********************************************************************/
+
+@use "../abstracts/mixins";
+
 body {
   background: url(../assets/images/background-flow.gif);
 }
@@ -16,7 +24,7 @@ body {
   flex-direction: column;
 
   .banner {
-    @include win98-border;
+    @include mixins.win98-border;
     background: url(../assets/images/banner-vini.gif);
     background-size: cover; 
     background-position: center;
@@ -25,7 +33,7 @@ body {
   }
 
   .navbar {
-    @include win98-border;
+    @include mixins.win98-border;
     background-color: yellow;
     height: 80px;
     padding: 20px;
@@ -40,7 +48,7 @@ body {
 }
 
 .sidebar {
-  @include win98-border;
+  @include mixins.win98-border;
   background-color: pink;
   width: 200px;
   height: 100%;
@@ -48,7 +56,7 @@ body {
 }
 
 .main {
-  @include win98-border;
+  @include mixins.win98-border;
   background: url(../assets/images/background-bubble.gif);
   background-size: cover; 
   background-position: center;

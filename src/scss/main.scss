@@ -5,12 +5,12 @@ For license information, please see the LICENSE file in the root directory.
 **********************************************************************/
 
 // abstracts
-@import "abstracts/mixins";
+@use "abstracts/mixins";
 
 // base
-@import "base/_fonts.scss";
-@import "base/_reset.scss";
-@import "base/_typography.scss";
+@use "base/fonts";
+@use "base/reset";
+@use "base/typography";
 
 // pages
-@import "pages/_home.scss";
+@use "pages/home";

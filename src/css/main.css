@@ -3,6 +3,11 @@ Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: @monambike for more information.
 For license information, please see the LICENSE file in the root directory.
 **********************************************************************/
+/**********************************************************************
+Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: @monambike for more information.
+For license information, please see the LICENSE file in the root directory.
+**********************************************************************/
 /**************************************************************************
 Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
@@ -55,19 +60,15 @@ Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
 Contact: contact@monambike.com for more information.
 For license information, please see the LICENSE file in the root directory.
 **************************************************************************/
-/**************************************************************************
-Copyright(c) 2024 Vinicius Gabriel Marques de Melo. All rights reserved.
-Contact: contact@monambike.com for more information.
-For license information, please see the LICENSE file in the root directory.
-**************************************************************************/
-@font-face {
-  font-family: "Pixelated MS Sans Serif";
-  src: url("../assets/fonts/ms_sans_serif.woff2") format("woff2"), url("../assets/fonts/ms_sans_serif.woff") format("woff");
-}
 * {
   font-family: "Pixelated MS Sans Serif", sans-serif;
 }
 
+/**********************************************************************
+Copyright(c) 2026 Vinicius Gabriel Marques de Melo. All rights reserved.
+Contact: @monambike for more information.
+For license information, please see the LICENSE file in the root directory.
+**********************************************************************/
 body {
   background: url(../assets/images/background-flow.gif);
 }
