@@ -1,0 +1,7 @@
+// Win 98 style border
+@mixin win98-border {
+  border-top: 4px solid cyan;
+  border-left: 4px solid cyan;
+  border-right: 4px solid blue;
+  border-bottom: 4px solid blue;
+}

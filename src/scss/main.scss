@@ -4,10 +4,13 @@ Contact: @monambike for more information.
 For license information, please see the LICENSE file in the root directory.
 **********************************************************************/
 
+// abstracts
+@import "abstracts/mixins";
 
 // base
 @import "base/_fonts.scss";
 @import "base/_reset.scss";
 @import "base/_typography.scss";
 
-@import "_home.scss";
+// pages
+@import "pages/_home.scss";
