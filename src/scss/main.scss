@@ -6,9 +6,9 @@ For license information, please see the LICENSE file in the root directory.
 
 // abstracts
 @use "abstracts/mixins";
+@use "abstracts/fonts";
 
 // base
-@use "base/fonts";
 @use "base/reset";
 @use "base/typography";
 
